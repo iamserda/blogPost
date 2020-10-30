@@ -23,7 +23,7 @@ Your main goal is to take the given HTML for a blog post and make it look good u
 *{box-sizing: border-box}
 html,body{
     margin: 0;
-    padding: 0;
+    padding: 1px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.125rem;
     height: 100vh;
@@ -34,22 +34,24 @@ h1,h2,h3,p{
 }
 
 .main{
-    padding: 40px;
-    width: 80vw;
-    margin: 0 auto;
-    border: 2px solid black;
-    display: relative;
-    bottom: 0;
-    top: 0;
-    min-height: 100vh;
+    padding: 0 40px 40px;
+    width: 50vw;
+    margin: 2.5rem auto;
+    border: 5px solid black;
 }  
 
 .main .title{
     font-family: Menlo,Monaco,Courier New, Courier, monospace;
     margin: 50px 0;
     font-size: 2rem;
-    max-width: 600px;
-    border-bottom: 5px solid black;
+    max-width: 700px;
+    border-bottom: 10px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 10px solid black;
+    /* border: 1px 1px 5px 5px solid black; */
+    padding: 0 0 10px 20px;
+
 }
 
 .meta{
