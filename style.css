@@ -33,11 +33,16 @@ h1,h2,h3,p{
     padding-top: 0;
 }
 
+.borderDecoration{
+    border: 5px solid slateblue;
+    box-shadow: -15px 20px 0px black;
+}
+
 .main{
     padding: 0 40px 40px;
     width: 50vw;
+    max-width: 800px;
     margin: 2.5rem auto;
-    border: 5px solid black;
 }  
 
 .main .title{
@@ -45,12 +50,9 @@ h1,h2,h3,p{
     margin: 50px 0;
     font-size: 2rem;
     max-width: 700px;
-    border-bottom: 10px solid black;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 10px solid black;
     /* border: 1px 1px 5px 5px solid black; */
     padding: 0 0 10px 20px;
+    text-shadow: ;
 
 }
 
@@ -61,7 +63,7 @@ h1,h2,h3,p{
 }
 
 .author,.date{
-    color: orangered;
+    color: slateblue;
 }
 
 .main img{
@@ -76,7 +78,9 @@ h1,h2,h3,p{
     width: 100%;
     overflow: auto;
     max-width: 1080px;
-    padding: 10px 10px 10px 0;
+    padding: 10px;
+    background-color: slateblue;
+    color: white;
 }
 .post p::after{
     content: "";
