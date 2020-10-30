@@ -1,0 +1,83 @@
+/* ==========================
+	Write your solution here!
+   ========================== 
+   **Challenge**:
+Your main goal is to take the given HTML for a blog post and make it look good using CSS.
+
+**Hints:**
+ - Think about CSS fonts & colors.
+ - The Box Model will come in handy here.
+
+**Topics Covered:**
+ - Typography
+ - Colors
+ - Box Model
+
+**Other Information:**
+ - Font used: Lato
+ - Author text color: #ef5839
+ - Bold font weight: 900
+
+   */
+   
+*{box-sizing: border-box}
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
+    height: 100vh;
+}
+
+h1,h2,h3,p{
+    padding-top: 0;
+}
+
+.main{
+    padding: 40px;
+    width: 80vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: relative;
+    bottom: 0;
+    top: 0;
+    min-height: 100vh;
+}  
+
+.main .title{
+    font-family: Menlo,Monaco,Courier New, Courier, monospace;
+    margin: 50px 0;
+    font-size: 2rem;
+    max-width: 600px;
+    border-bottom: 5px solid black;
+}
+
+.meta{
+    font-weight: bold;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.author,.date{
+    color: orangered;
+}
+
+.main img{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px 10px 1px;
+    float: left;
+}
+
+.post p{
+    margin: 0 0 40px;
+    width: 100%;
+    overflow: auto;
+    max-width: 1080px;
+    padding: 10px 10px 10px 0;
+}
+.post p::after{
+    content: "";
+    clear: both;
+    display: table;
+}
