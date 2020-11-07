@@ -6,4 +6,7 @@ Simple work.
 
 Using these simple post to use "git" and "gh" more often to create/update repos.
 
+### See the project at:
+https://iamserda.github.io/blogPost/
+
 -Serda
